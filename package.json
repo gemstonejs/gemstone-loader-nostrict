@@ -1,0 +1,40 @@
+{
+    "name":        "gemstone-loader-nostrict",
+    "homepage":    "http://github.com/gemstonejs/gemstone-loader-nostrict",
+    "description": "Webpack Loader for Removing Strictness in Gemstone JavaScript Technology Stack",
+    "version":     "0.9.0",
+    "license":     "Apache-2.0",
+    "author": {
+        "name":    "Gemstone Project",
+        "url":     "http://gemstonejs.com"
+    },
+    "keywords": [
+        "gemstone", "webpack", "loader", "strict"
+    ],
+    "repository": {
+        "type": "git",
+        "url":  "git://github.com/gemstonejs/gemstone-loader-nostrict.git"
+    },
+    "bugs": {
+        "url":  "http://github.com/gemstonejs/gemstone-loader-nostrict/issues"
+    },
+    "devDependencies": {
+        "eslint":                         "~3.19.0",
+        "eslint-config-standard":         "~10.2.1",
+        "eslint-plugin-standard":         "~3.0.1",
+        "eslint-plugin-promise":          "~3.5.0",
+        "eslint-plugin-import":           "~2.2.0",
+        "eslint-plugin-node":             "~4.2.2",
+        "babel-eslint":                   "~7.2.3"
+    },
+    "dependencies" : {
+        "loader-utils":                   "~1.1.0"
+    },
+    "engines": {
+        "node":                           ">=6.0.0"
+    },
+    "scripts": {
+        "prepublish": "eslint --config eslint.yaml gemstone-loader-nostrict.js"
+    },
+    "main": "./gemstone-loader-nostrict.js"
+}
