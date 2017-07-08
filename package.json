@@ -33,7 +33,7 @@
         "node":                           ">=6.0.0"
     },
     "scripts": {
-        "prepublish": "eslint --config eslint.yaml gemstone-loader-nostrict.js"
+        "prepublishOnly": "eslint --config eslint.yaml gemstone-loader-nostrict.js"
     },
     "main": "./gemstone-loader-nostrict.js"
 }
